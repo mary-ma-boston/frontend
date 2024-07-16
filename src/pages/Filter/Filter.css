@@ -1,0 +1,11 @@
+.conditionbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  font-weight: 800;
+}

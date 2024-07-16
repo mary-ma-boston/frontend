@@ -1,0 +1,86 @@
+/* src/Header.css */
+.header {
+  /* background-color: #ebf6e3; */
+  background-color: #42494f;
+  padding: 10px 0;
+  box-shadow: 1px 1px 1px rgb(212, 218, 210);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 65px;
+  z-index: 1000;
+}
+
+.headercontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.header-logo {
+  position: relative;
+  /* top: -12px; */
+}
+.header-logo img {
+  max-height: 50px;
+  margin-top: -2px;
+
+  /* background-color: white; */
+}
+
+.header-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav ul li {
+  display: inline;
+}
+
+.header-nav ul li a {
+  /* color: rgb(0, 0, 0); */
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.header-nav ul li a:hover {
+  color: #1abc9c;
+}
+
+.header-search {
+  display: flex;
+  align-items: center;
+}
+
+.header-search input {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+.header-search button {
+  background-color: #1abc9c;
+  border: none;
+  padding: 8px;
+  margin-left: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.header-search button:hover {
+  background-color: #16a085;
+}
+
+.header-search button i {
+  font-size: 16px;
+}

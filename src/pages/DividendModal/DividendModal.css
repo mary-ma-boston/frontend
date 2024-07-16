@@ -1,0 +1,17 @@
+/* DividendModal.css */
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.modal.show {
+  display: block;
+  padding-right: 17px;
+}
+
+td {
+  width: 33.33%;
+}
