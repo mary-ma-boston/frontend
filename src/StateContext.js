@@ -10,7 +10,7 @@ export const StateProvider = ({ children }) => {
   const [pageIndex, setPageIndex] = useState({ num: 1 });
   const [pageCount, setPageCount] = useState(1);
   const [hasMore, setHasMore] = useState(true);
-  const [filterConfig, setFilters] = useState(null);
+  // const [filterConfig, setFilters] = useState(null);
   const [sortConfig, setSortConfig] = useState({});
   const [filterConditions, setFilterConditions] = useState([
     { field: c_searchFiledName, condition: "like", value: "" },
@@ -31,8 +31,8 @@ export const StateProvider = ({ children }) => {
         setPageCount,
         hasMore,
         setHasMore,
-        filterConfig,
-        setFilters,
+        // filterConfig,
+        // setFilters,
         sortConfig,
         setSortConfig,
         filterConditions,
